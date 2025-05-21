@@ -45,6 +45,8 @@ User summary: {self.user.profile.get('summary', 'A curious learner.')}
 
 Last 3 questions: {self.user.get_last_questions(3)}
 
+Context :{context}
+
 Context summary: {await self.brain.summarize_context(context)}
 
 Respond with:
