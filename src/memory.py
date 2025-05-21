@@ -27,3 +27,5 @@ class UserMemory:
             self.profile["interests"]["physics"] = self.profile["interests"].get("physics", 0) + 0.1
         with open(self.user_dir / "profile.json", "w") as f:
             json.dump(self.profile, f)
+    def get_last_questions(self, n=3):
+        return [q for q, _ in self.profile["conversation_history"][-n:]]

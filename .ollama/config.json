@@ -1,0 +1,6 @@
+{
+  "num_parallel": 2,
+  "num_ctx": 1024,
+  "num_threads": 4,
+  "temperature": 0.5
+}
