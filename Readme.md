@@ -6,11 +6,11 @@
 
 ## ✨ Features
 
-* 🤖 **LLM-Powered Responses** — Uses `gemma3:4b` via [Ollama](https://ollama.com/) for lightweight, fast, local inference.
-* 🧠 **Knowledge Ingestion** — Adds external text to a vector store with embeddings for context-aware answers.
-* 🤩 **Memory-Based Personalization** — Tracks previous questions and interests to customize replies.
-* ⚡ **Streaming Output** — CLI displays output in real-time using `rich`.
-* 💬 **Socratic Prompting** — Answers are styled like a mentor: metaphorical, curious, and reflective.
+*  **LLM-Powered Responses** — Uses `gemma3:4b` via [Ollama](https://ollama.com/) for lightweight, fast, local inference.
+* **Knowledge Ingestion** — Adds external text to a vector store with embeddings for context-aware answers.
+*  **Memory-Based Personalization** — Tracks previous questions and interests to customize replies.
+*  **Streaming Output** — CLI displays output in real-time using `rich`.
+*  **Socratic Prompting** — Answers are styled like a mentor: metaphorical, curious, and reflective.
 
 ---
 
